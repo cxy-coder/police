@@ -1,0 +1,11 @@
+<res>
+   <item name="game/bg-game.jpg" type="Image" compress="0" pack="0" quality="80" props="" picType="0" scale="0"/>
+   <item name="game/bg2.png" type="Image" compress="0" pack="0" quality="80" props="" picType="0" scale="0"/>
+   <item name="game/pagebg.png" type="Image" compress="0" pack="0" quality="80" props="" picType="0" scale="0"/>
+   <item name="comp/cancel.png" type="Image" compress="0" pack="0" quality="80" props="" picType="0" scale="0"/>
+   <item name="comp/close.png" type="Image" compress="0" pack="0" quality="80" props="" picType="0" scale="0"/>
+   <item name="comp/confirm.png" type="Image" compress="0" pack="0" quality="80" props="" picType="0" scale="0"/>
+   <item name="comp/dialog.png" type="Image" compress="0" pack="0" quality="80" props="" picType="0" scale="0"/>
+   <item name="comp/no.png" type="Image" compress="0" pack="0" quality="80" props="" picType="0" scale="0"/>
+   <item name="comp/yes.png" type="Image" compress="0" pack="0" quality="80" props="" picType="0" scale="0"/>
+</res>
