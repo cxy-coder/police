@@ -1,1 +1,1 @@
-{"type":"View","props":{"width":750,"height":1334},"loadList":[],"loadList3D":[]}
+{"type":"View","props":{"width":750,"height":1334},"compId":2,"child":[{"type":"Sprite","props":{"y":0,"x":750,"texture":"game/pagebg.png","rotation":90},"compId":3}],"loadList":["game/pagebg.png"],"loadList3D":[]}
