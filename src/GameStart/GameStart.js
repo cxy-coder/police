@@ -3,7 +3,7 @@ export default class GameStart extends Laya.Script {
         super()
     }
     onEnable() {
-        console.log(this)
+        console.log(this);
     }
     onClick() {
         console.log(this);
