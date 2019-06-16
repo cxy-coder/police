@@ -34,6 +34,7 @@ export default class TaskDetail extends Laya.Script {
     }
     // 控制提示弹窗
     dialogControl(val) {
+        this.detailControl(!val);
         const dialogTipsArr = [
             this.owner.btnClose,
             this.owner.btnConfirm,
@@ -41,8 +42,21 @@ export default class TaskDetail extends Laya.Script {
             this.owner.btnYes,
             this.owner.dialogContent,
             this.owner.dialogControl
-        ]
+        ];
         dialogTipsArr.forEach(element => {
+            element.visible = val;
+        });
+    }
+    // 控制接警弹窗
+    detailControl(val) {
+        const detailArr = [
+            this.owner.btnReceive,
+            this.owner.btnExit,
+            this.owner.dialogDetail,
+            this.owner.detailContent,
+            this.owner.detailTitle
+        ];
+        detailArr.forEach(element => {
             element.visible = val;
         });
     }
