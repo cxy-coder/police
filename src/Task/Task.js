@@ -1,16 +1,17 @@
 export default class Task extends Laya.Script {
     constructor() {
         super();
-        this.owner.equipmentList.dataSource = []; // 装备列表数据初始化
         const equipments = []; // 装备数据 不知道是传进去还是直接写死，先置为空吧，可以用的时候直接读取json
+        // this.owner.equipmentList.dataSource = []; // 装备列表数据初始化
     }
     onEnable() {
         this.loadEquipmentsData();
         this.renderEquipmentList();
-        this.owner.btnTurnLeft.on(Laya.Event.CLICK, this, this.onBtnTurn('left'));
-        this.owner.btnTurnRight.on(Laya.Event.CLICK, this, this.onBtnTurn('right'));
-        this.owner.btnTurnEnter.on(Laya.Event.CLICK, this, this.onBtnChangeScene('forward'));
-        this.owner.btnTurnCancel.on(Laya.Event.CLICK, this, this.onBtnChangeScene('backward'));
+        console.log(this);
+        // this.owner.btnTurnLeft.on(Laya.Event.CLICK, this, this.onBtnTurn('left'));
+        // this.owner.btnTurnRight.on(Laya.Event.CLICK, this, this.onBtnTurn('right'));
+        // this.owner.btnTurnEnter.on(Laya.Event.CLICK, this, this.onBtnChangeScene('forward'));
+        // this.owner.btnTurnCancel.on(Laya.Event.CLICK, this, this.onBtnChangeScene('backward'));
     }
 
     /**

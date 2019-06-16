@@ -9,7 +9,7 @@ export default class GamePage extends Laya.Script {
     }
     onBtnAlarm() {
         console.log('接警');
-        Laya.Scene.open('GameStart.scene');
+        Laya.Scene.open('GameSelect.scene');
     }
     onBtnBack() {
         console.log('回炉营');
