@@ -6,7 +6,7 @@
     "searchKey":"Scene",
     "props":{"width":750,"sceneColor":"#fffdfd","height":1334},
     "nodeParent":-1,
-    "maxID":48,
+    "maxID":50,
     "label":"Scene",
     "isOpen":true,
     "isDirectory":true,
@@ -215,29 +215,16 @@
         {
             "x":15,
             "type":"Sprite",
-            "searchKey":"Sprite,dialogTips",
-            "props":{"y":430,"x":290.99998470011303,"var":"dialogTips"},
+            "searchKey":"Sprite,dialogControl",
+            "props":{"y":430,"x":577.999984700113,"var":"dialogControl","texture":"game/dialog-bg.png","rotation":90},
             "nodeParent":2,
-            "label":"dialogTips",
-            "isOpen":null,
-            "isDirectory":true,
+            "label":"dialogControl",
+            "isDirectory":false,
             "isAniNode":true,
-            "hasChild":true,
-            "compId":46,
+            "hasChild":false,
+            "compId":37,
             "child":[
-                {
-                    "type":"Sprite",
-                    "searchKey":"Sprite,dialogControl",
-                    "props":{"x":287.9999999999999,"var":"dialogControl","texture":"game/dialog-bg.png","rotation":90},
-                    "nodeParent":46,
-                    "label":"dialogControl",
-                    "isDirectory":false,
-                    "isAniNode":true,
-                    "hasChild":false,
-                    "compId":37,
-                    "child":[
-                        ]
-                }]
+                ]
         },
         {
             "x":15,
