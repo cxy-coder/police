@@ -1,8 +1,8 @@
 {
     "x":0,
     "type":"Scene",
-    "selectedBox":4,
-    "selecteID":13,
+    "selectedBox":2,
+    "selecteID":4,
     "searchKey":"Scene",
     "props":{"width":750,"visible":true,"sceneColor":"#000000","scaleY":1,"rotation":90,"height":1334},
     "nodeParent":-1,

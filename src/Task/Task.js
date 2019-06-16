@@ -8,10 +8,10 @@ export default class Task extends Laya.Script {
         console.log(this)
         this.loadEquipmentsData();
         this.renderEquipmentList();
-        this.owner.btnTurnLeft.on(Laya.Event.CLICK, this, this.onBtnTurn('left'));
-        this.owner.btnTurnRight.on(Laya.Event.CLICK, this, this.onBtnTurn('right'));
-        this.owner.btnTurnEnter.on(Laya.Event.CLICK, this, this.onBtnChangeScene('forward'));
-        this.owner.btnTurnCancel.on(Laya.Event.CLICK, this, this.onBtnChangeScene('backward'));
+        // this.owner.btnTurnLeft.on(Laya.Event.CLICK, this, this.onBtnTurn('left'));
+        // this.owner.btnTurnRight.on(Laya.Event.CLICK, this, this.onBtnTurn('right'));
+        // this.owner.btnTurnEnter.on(Laya.Event.CLICK, this, this.onBtnChangeScene('forward'));
+        // this.owner.btnTurnCancel.on(Laya.Event.CLICK, this, this.onBtnChangeScene('backward'));
     }
 
     /**

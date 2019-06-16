@@ -2,11 +2,11 @@
     "x":0,
     "type":"View",
     "selectedBox":2,
-    "selecteID":14,
+    "selecteID":27,
     "searchKey":"View",
     "props":{"width":750,"sceneColor":"#ffffff","height":1334},
     "nodeParent":-1,
-    "maxID":17,
+    "maxID":28,
     "label":"View",
     "isOpen":true,
     "isDirectory":true,
@@ -58,20 +58,6 @@
         },
         {
             "x":15,
-            "type":"Sprite",
-            "searchKey":"Sprite",
-            "props":{"y":88,"x":731,"texture":"game/npc.png","rotation":90},
-            "nodeParent":2,
-            "label":"Sprite",
-            "isDirectory":false,
-            "isAniNode":true,
-            "hasChild":false,
-            "compId":15,
-            "child":[
-                ]
-        },
-        {
-            "x":15,
             "type":"Script",
             "switchAble":true,
             "source":"src/GameSelect/GameSelect.js",
@@ -84,6 +70,161 @@
             "isAniNode":true,
             "hasChild":false,
             "compId":16,
+            "child":[
+                ]
+        },
+        {
+            "x":15,
+            "type":"Sprite",
+            "searchKey":"Sprite,character",
+            "props":{"y":85,"x":621,"width":377,"var":"character","texture":"game/npc.png","rotation":90,"height":538},
+            "nodeParent":2,
+            "label":"character",
+            "isOpen":true,
+            "isDirectory":true,
+            "isAniNode":true,
+            "hasChild":true,
+            "compId":17,
+            "child":[
+                {
+                    "x":30,
+                    "type":"Sprite",
+                    "searchKey":"Sprite,btnTurnRight",
+                    "props":{"y":371,"x":0,"width":60,"var":"btnTurnRight","texture":"game/right.png","stateNum":"1","rotation":180,"height":60},
+                    "nodeParent":17,
+                    "label":"btnTurnRight",
+                    "isDirectory":false,
+                    "isAniNode":true,
+                    "hasChild":false,
+                    "compId":18,
+                    "child":[
+                        ]
+                },
+                {
+                    "x":30,
+                    "type":"Sprite",
+                    "searchKey":"Sprite,btnTurnLeft",
+                    "props":{"y":311,"x":377,"width":60,"var":"btnTurnLeft","texture":"game/right.png","stateNum":"1","height":60},
+                    "nodeParent":17,
+                    "label":"btnTurnLeft",
+                    "isDirectory":false,
+                    "isAniNode":true,
+                    "hasChild":false,
+                    "compId":19,
+                    "child":[
+                        ]
+                }]
+        },
+        {
+            "x":15,
+            "type":"ComboBox",
+            "searchKey":"ComboBox,policeQuantity",
+            "props":{"y":632,"x":195.5,"width":174,"var":"policeQuantity","skin":"game/combobox.png","selectedLabel":"2","selectedIndex":0,"rotation":90,"labels":"2","labelSize":28,"labelFont":"Arial","labelBold":true,"height":70},
+            "nodeParent":2,
+            "label":"policeQuantity",
+            "isOpen":true,
+            "isDirectory":true,
+            "isAniNode":true,
+            "hasChild":true,
+            "compId":20,
+            "child":[
+                {
+                    "x":30,
+                    "type":"Text",
+                    "searchKey":"Text",
+                    "props":{"zOrder":1,"y":16,"x":-84,"width":84,"text":"警力：","stroke":3,"height":38,"fontSize":30,"color":"#c85039","bold":true,"align":"center"},
+                    "nodeParent":20,
+                    "label":"Text",
+                    "isDirectory":false,
+                    "isAniNode":true,
+                    "hasChild":false,
+                    "compId":21,
+                    "child":[
+                        ]
+                }]
+        },
+        {
+            "x":15,
+            "type":"List",
+            "searchKey":"List,equipmentList",
+            "props":{"y":855,"x":639,"width":477,"visible":false,"var":"equipmentList","rotation":90,"repeatY":3,"repeatX":2,"renderType":"render","height":495,"elasticEnabled":true,"alpha":1},
+            "nodeParent":2,
+            "label":"equipmentList",
+            "isOpen":true,
+            "isDirectory":true,
+            "isAniNode":true,
+            "hasChild":true,
+            "compId":22,
+            "child":[
+                {
+                    "x":30,
+                    "type":"Box",
+                    "searchKey":"Box",
+                    "props":{"renderType":"render","gray":false,"alpha":1},
+                    "nodeParent":22,
+                    "label":"Box",
+                    "isOpen":true,
+                    "isDirectory":true,
+                    "isAniNode":false,
+                    "hasChild":true,
+                    "compId":23,
+                    "child":[
+                        {
+                            "x":45,
+                            "type":"Sprite",
+                            "searchKey":"Sprite,equipment",
+                            "props":{"zOrder":1,"y":38,"x":14,"width":122,"var":"equipment","texture":"game/car.png","renderType":"render","height":80},
+                            "nodeParent":23,
+                            "label":"equipment",
+                            "isOpen":true,
+                            "isDirectory":false,
+                            "isAniNode":false,
+                            "hasChild":false,
+                            "compId":24,
+                            "child":[
+                                ]
+                        },
+                        {
+                            "x":45,
+                            "type":"Panel",
+                            "searchKey":"Panel",
+                            "props":{"y":24,"x":12,"width":213,"height":106,"bgColor":"#e0e0e0","alpha":0.6},
+                            "nodeParent":23,
+                            "label":"Panel",
+                            "isDirectory":false,
+                            "isAniNode":false,
+                            "hasChild":false,
+                            "compId":25,
+                            "child":[
+                                ]
+                        },
+                        {
+                            "x":45,
+                            "type":"Text",
+                            "searchKey":"Text,equipmentName",
+                            "props":{"y":64,"x":164,"var":"equipmentName","text":"警车","fontSize":24,"color":"#2d2929"},
+                            "nodeParent":23,
+                            "label":"equipmentName",
+                            "isDirectory":false,
+                            "isAniNode":false,
+                            "hasChild":false,
+                            "compId":26,
+                            "child":[
+                                ]
+                        }]
+                }]
+        },
+        {
+            "x":15,
+            "type":"Text",
+            "searchKey":"Text",
+            "props":{"zOrder":1,"y":838,"x":689,"width":477,"text":"装备栏","stroke":3,"rotation":90,"height":34,"fontSize":30,"color":"#c85039","bold":true,"align":"center"},
+            "nodeParent":2,
+            "label":"Text",
+            "isDirectory":false,
+            "isAniNode":true,
+            "hasChild":false,
+            "compId":27,
             "child":[
                 ]
         }],

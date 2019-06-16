@@ -41,7 +41,7 @@ P 01BAE7F5 vslider.png
 D game
 R 0E61E907 bg-game.jpg
 R F5B0631B bg2.png
-P EF1F9E23 bg_g.png
+P DD78086C bg_g.png
 P 628455C9 cancel.png
 R 63D8EE89 car.png
 P 98E54F0D checkbox.png
@@ -49,7 +49,7 @@ P 6B6A8542 close.png
 P 704C5D70 combobox.png
 P EDC9986F confirm.png
 R 99C32CB9 dialog-bg.png
-P 55F5CB73 dialog-bottom.png
+P A0852528 dialog-bottom.png
 P 1C5F6AC4 exit.png
 P 7FF47AC5 hscroll$down.png
 P 3D7B147A hscroll$up.png
