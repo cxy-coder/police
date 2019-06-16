@@ -9,8 +9,10 @@ export default class TaskDetail extends Laya.Script {
         this.owner.btnClose.on(Laya.Event.CLICK, this, this.onBtnClose);
         this.owner.btnYes.on(Laya.Event.CLICK, this, this.onBtnYes);
         this.owner.btnNo.on(Laya.Event.CLICK, this, this.onBtnNo);
-        this.owner.btnExit.on(Laya.Event.CLICK, this, this.onBtnExit)
+        this.owner.btnExit.on(Laya.Event.CLICK, this, this.onBtnExit);
+        this.owner.btnConfirm.on(Laya.Event.CLICK, this, this.onBtnConfirm);
     }
+    // 弹窗否认
     onBtnNo() {
         this.dialogControl(false);
     }
@@ -21,6 +23,10 @@ export default class TaskDetail extends Laya.Script {
         this.owner.btnNo.visible = false;
         this.owner.btnConfirm.visible = true;
         this.dialogContent('显示接警警情信息');
+    }
+    // 警情确认
+    onBtnConfirm() {
+        Laya.Scene.open('GameSelect.scene');
     }
     // 推出当前场景
     onBtnExit() {
