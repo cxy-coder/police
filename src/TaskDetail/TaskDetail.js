@@ -22,7 +22,7 @@ export default class TaskDetail extends Laya.Script {
         this.owner.btnYes.visible = false;
         this.owner.btnNo.visible = false;
         this.owner.btnConfirm.visible = true;
-        this.dialogContent('显示接警警情信息');
+        this.dialogContent('XXX地，XXX人员为一名男性/女性，未受伤，没有肇事行为');
     }
     // 警情确认
     onBtnConfirm() {

@@ -15,7 +15,7 @@ export default class GameSelect extends Laya.Script {
     }
     onBtnEnter() {
         console.log('进入现场');
-        Laya.Scene.open('Task.scene');
+        Laya.Scene.open('GameStart.scene');
     }
     onBtnTrain() {
         console.log('新警训练营');
