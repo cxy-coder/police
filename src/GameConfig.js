@@ -2,6 +2,10 @@
 import GamePage from "./GamePage/GamePage"
 import GameSelect from "./GameSelect/GameSelect"
 import GameStart from "./GameStart/GameStart"
+<<<<<<< HEAD
+=======
+import Task from "./Task/Task"
+>>>>>>> 2bf17820210af6cebb8bf92bb23e13e8f9a57a95
 
 export default class GameConfig {
     static init() {
@@ -10,6 +14,7 @@ export default class GameConfig {
 		reg("GamePage/GamePage.js",GamePage);
 		reg("GameSelect/GameSelect.js",GameSelect);
 		reg("GameStart/GameStart.js",GameStart);
+		reg("Task/Task.js",Task);
     }
 }
 GameConfig.width = 750;
