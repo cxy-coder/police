@@ -1,8 +1,8 @@
 {
     "x":0,
     "type":"Scene",
-    "selectedBox":42,
-    "selecteID":43,
+    "selectedBox":27,
+    "selecteID":29,
     "searchKey":"Scene",
     "props":{"width":640,"visible":true,"sceneColor":"#000000","scaleY":1,"rotation":90,"height":1136},
     "nodeParent":-1,
@@ -29,9 +29,9 @@
             "child":[
                 {
                     "x":30,
-                    "type":"Button",
-                    "searchKey":"Button,btnEnter",
-                    "props":{"y":538,"x":925,"width":200,"var":"btnEnter","stateNum":"1","skin":"game/jinruxianchang.png","labelStrokeColor":"#5c6246","labelStroke":2,"labelSize":20,"labelFont":"Arial","labelColors":"#FFF","height":100},
+                    "type":"Sprite",
+                    "searchKey":"Sprite,btnEnter",
+                    "props":{"y":538,"x":925,"width":200,"var":"btnEnter","texture":"game/jinruxianchang.png","stateNum":"1","labelStrokeColor":"#5c6246","labelStroke":2,"labelSize":20,"labelFont":"Arial","labelColors":"#FFF","height":100},
                     "nodeParent":4,
                     "label":"btnEnter",
                     "isOpen":true,
@@ -44,9 +44,9 @@
                 },
                 {
                     "x":30,
-                    "type":"Button",
-                    "searchKey":"Button,btnCancel",
-                    "props":{"y":538,"x":725,"width":200,"var":"btnCancel","stateNum":"1","skin":"game/cancel.png","labelStrokeColor":"#2989a1","labelStroke":3,"labelSize":20,"labelColors":"#FFF","height":100,"gray":true},
+                    "type":"Sprite",
+                    "searchKey":"Sprite,btnCancel",
+                    "props":{"y":538,"x":725,"width":200,"var":"btnCancel","texture":"game/cancel.png","stateNum":"1","labelStrokeColor":"#2989a1","labelStroke":3,"labelSize":20,"labelColors":"#FFF","height":100,"gray":true},
                     "nodeParent":4,
                     "label":"btnCancel",
                     "isOpen":true,
@@ -157,9 +157,9 @@
                     "child":[
                         {
                             "x":45,
-                            "type":"Button",
-                            "searchKey":"Button,btnTurnRight",
-                            "props":{"y":371,"x":0,"width":60,"var":"btnTurnRight","stateNum":"1","skin":"game/right.png","rotation":180,"height":60},
+                            "type":"Sprite",
+                            "searchKey":"Sprite,btnTurnRight",
+                            "props":{"y":371,"x":0,"width":60,"var":"btnTurnRight","texture":"game/right.png","stateNum":"1","rotation":180,"height":60},
                             "nodeParent":27,
                             "label":"btnTurnRight",
                             "isDirectory":false,
@@ -171,9 +171,9 @@
                         },
                         {
                             "x":45,
-                            "type":"Button",
-                            "searchKey":"Button,btnTurnLeft",
-                            "props":{"y":311,"x":377,"width":60,"var":"btnTurnLeft","stateNum":"1","skin":"game/right.png","height":60},
+                            "type":"Sprite",
+                            "searchKey":"Sprite,btnTurnLeft",
+                            "props":{"y":311,"x":377,"width":60,"var":"btnTurnLeft","texture":"game/right.png","stateNum":"1","height":60},
                             "nodeParent":27,
                             "label":"btnTurnLeft",
                             "isDirectory":false,

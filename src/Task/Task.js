@@ -1,8 +1,8 @@
 export default class Task extends Laya.Script {
     constructor() {
         super();
-        // this.owner.equipmentList.dataSource = []; // 装备列表数据初始化
         // const equipments = []; // 装备数据 不知道是传进去还是直接写死，先置为空吧，可以用的时候直接读取json
+        // this.owner.equipmentList.dataSource = []; // 装备列表数据初始化
     }
     onEnable() {
         console.log(this)
@@ -20,6 +20,7 @@ export default class Task extends Laya.Script {
      */
     // TODO: Before next commit
     loadEquipmentsData() {
+        console.log('loading  data now')
 
     }
 
@@ -29,6 +30,7 @@ export default class Task extends Laya.Script {
      */
     // TODO: Before next commit
     renderEquipmentList() {
+        console.info('render list !')
 
     }
     /**
@@ -38,6 +40,7 @@ export default class Task extends Laya.Script {
      */
     // TODO: Before next commit
     onBtnTurn(direction) {
+        console.log(`turn ${direction}`)
 
     }
     /**
@@ -47,6 +50,6 @@ export default class Task extends Laya.Script {
      */
     // TODO: Before next commit
     onBtnChangeScene(direction) {
-
+        console.log(`go ${direction}`)
     }
 }
