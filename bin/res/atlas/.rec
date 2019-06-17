@@ -39,8 +39,6 @@ P 5FD17798 vscroll.png
 P DDDDFB9E vslider$bar.png
 P 01BAE7F5 vslider.png
 D game
-P 2604B03C 5v5.png
-P DB6C2C12 activity.png
 P 8494402B belt_behind.png
 S 4787C247 belt_front.png
 P A85DA99E belt_left.png
@@ -48,6 +46,7 @@ P 0F2D6ABF belt_right.png
 R 0E61E907 bg-game.jpg
 R F5B0631B bg2.png
 P DD78086C bg_g.png
+R F4AF11EC bg_game_select.png
 P 628455C9 cancel.png
 R 63D8EE89 car.png
 P 98E54F0D checkbox.png
@@ -62,6 +61,7 @@ P 1C5F6AC4 exit.png
 P 1C4A27AB hat-behind.png
 P DD29BF65 hat-left.png
 P FCD11143 hat-right.png
+<<<<<<< HEAD
 P 7FF47AC5 hscroll$down.png
 P 3D7B147A hscroll$up.png
 P 2F981D9A huiluying.png
@@ -72,6 +72,20 @@ R 265D0D80 jc-front.png
 R A37E1CFB jc-left.png
 R CF05405D jc-right-ed.png
 R ABA307B2 jc-right.png
+=======
+P 8424F839 hat_front.png
+P 7FF47AC5 hscroll$down.png
+P 3D7B147A hscroll$up.png
+P 2F981D9A huiluying.png
+R F9D7015A jc-back-ed.png
+R 89BE6722 jc-back.png
+R 9838F7B8 jc-front-ed.png
+R 94EC64FB jc-front.png
+R 6DC041EC jc-left-ed.png
+R E6E9A6FD jc-left.png
+R CF05405D jc-right-ed.png
+R DDBCFD9F jc-right.png
+>>>>>>> 3579f131ae58a2a254989cc906c8d29cac9273f5
 P E59887FE jiejing.png
 P 628DE81E jiejiu.png
 P 080C3A92 jinruxianchang.png
