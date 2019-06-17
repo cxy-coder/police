@@ -7,7 +7,7 @@ export default class GameStart extends Laya.Script {
         console.log(this);
         this.dialogMessageControl(true);//显示提示弹窗
         this.dialogControl(false);//隐藏对话弹窗
-        this.btnControl(true);//显示隐藏按钮
+        // this.btnControl(true);//显示隐藏按钮
         this.owner.btnNo.on(Laya.Event.CLICK, this, this.onBtnNo);
         this.owner.btnYes.on(Laya.Event.CLICK, this, this.onBtnYes);
         this.owner.btnClose.on(Laya.Event.CLICK, this, this.onBtnClose);
@@ -47,8 +47,7 @@ export default class GameStart extends Laya.Script {
         });
     }
     onBtnNo() {
-        this.btnControl(false);//隐藏隐藏按钮
-        this.dialogMessageText("操作不符合规范！");
+        this.onBtnYes();
     }
     onBtnYes() {
         this.count = this.count + 1;

@@ -28,15 +28,14 @@ export default class TaskDetail extends Laya.Script {
     onBtnConfirm() {
         Laya.Scene.open('GameSelect.scene');
     }
-    // 推出当前场景
+    // 退出当前场景
     onBtnExit() {
         Laya.Scene.open('GamePage.scene');
     }
     // 确认接警按钮
     onBtnReciive() {
         this.dialogControl(true);
-        this.dialogContent('显示接警信息内容');
-        this.owner.btnConfirm.visible = false;
+        this.onBtnYes();
     }
     // 控制提示弹窗
     dialogControl(val) {
