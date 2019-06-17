@@ -10,6 +10,7 @@ export default class Loading extends Laya.Script {
             if (this.owner.loadingCar.y > 1334) {
                 clearInterval(timer);
                 Laya.Scene.open('GamePage.scene');
+                laya.media.SoundManager.playMusic("res/music.mp3",0);
             }
         }, 10);
     }
