@@ -6,7 +6,10 @@ export default class GameStart extends Laya.Script {
     }
     onEnable() {
         console.log(this);
-        this.dialogMessageControl(true);//显示提示弹窗
+        this.dialogMessageControl(false);
+        setTimeout(() => {
+            this.dialogMessageControl(true);//显示提示弹窗
+        }, 2000);
         this.dialogControl(false);//隐藏对话弹窗
         // this.btnControl(true);//显示隐藏按钮
         this.owner.btnNo.on(Laya.Event.CLICK, this, this.onBtnNo);
