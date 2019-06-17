@@ -2,6 +2,7 @@ export default class GameStart extends Laya.Script {
     constructor() {
         super()
         this.count = 0;
+        this.btnType = '';
     }
     onEnable() {
         console.log(this);
@@ -47,18 +48,39 @@ export default class GameStart extends Laya.Script {
         });
     }
     onBtnNo() {
-        this.onBtnYes();
+        if (this.btnType === 'exit') {
+            if(this.count == 0){
+                this.dialogMessageText("是否回告指挥中心？");
+            }
+            if(this.count == 1){
+                this.dialogMessageText("是否打开执法记录仪？");
+            }
+            this.btnType = '';
+            if(this.count == 2){
+                this.btnType = 'end';
+                this.dialogControl(true);//显示对话弹窗
+                this.dialogMessageControl(false);//隐藏提示弹窗
+                this.dialogText("你好，我是公安县公安局的民警，请问是你报警的吗？");
+            }
+        } else {
+            this.onBtnYes();
+        }
     }
     onBtnYes() {
+        if (this.btnType === 'exit') {
+            Laya.Scene.open('GamePage.scene');
+            return;
+        }
         this.count = this.count + 1;
         if(this.count == 1){
             this.dialogMessageText("是否打开执法记录仪？");
         }
         if(this.count == 2){
+            this.btnType = 'end';
             this.dialogControl(true);//显示对话弹窗
             this.dialogMessageControl(false);//隐藏提示弹窗
             this.dialogText("你好，我是公安县公安局的民警，请问是你报警的吗？");
-        } 
+        }
     }
     onBtnClose() {
         this.dialogMessageControl(false);//隐藏提示弹窗
@@ -66,7 +88,11 @@ export default class GameStart extends Laya.Script {
         this.btnControl(false);//隐藏隐藏按钮
     }
     onBtnExit() {
-        Laya.Scene.open('GamePage.scene');
+        if (this.btnType = 'end') {
+            this.dialogMessageControl(true);
+        }
+        this.btnType = 'exit';
+        this.dialogMessageText("是否确认处结？");
     }
     onBtnNext(){
         Laya.Scene.open('GamePage.scene');

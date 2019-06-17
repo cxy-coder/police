@@ -46,7 +46,8 @@ export default class TaskDetail extends Laya.Script {
             this.owner.btnNo,
             this.owner.btnYes,
             this.owner.dialogContent,
-            this.owner.dialogControl
+            this.owner.dialogControl,
+            this.owner.dialogTitle,
         ];
         dialogTipsArr.forEach(element => {
             element.visible = val;
