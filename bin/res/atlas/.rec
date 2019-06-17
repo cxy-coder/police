@@ -39,7 +39,7 @@ P 5FD17798 vscroll.png
 P DDDDFB9E vslider$bar.png
 P 01BAE7F5 vslider.png
 D game
-P EFDEC592 5v5.png
+P 2604B03C 5v5.png
 P DB6C2C12 activity.png
 R 0E61E907 bg-game.jpg
 R F5B0631B bg2.png
@@ -59,9 +59,10 @@ P 7FF47AC5 hscroll$down.png
 P 3D7B147A hscroll$up.png
 P 2F981D9A huiluying.png
 P E59887FE jiejing.png
-P 5CAF6BFA jiejiu.png
+P 628DE81E jiejiu.png
 P 080C3A92 jinruxianchang.png
 P B7DF4363 loading-car.png
+R 7C0E0B48 logo.png
 P FACFB731 no.png
 R 1C67BD78 npc.png
 R 43E9480C pagebg.png
@@ -69,9 +70,8 @@ P 68B8B725 querenjiejing.png
 R C4E3B68C rechange-bg.jpg
 P FC5559BF reward.png
 P A30427DE right.png
-P 3AB909CF settting.png
 P BA034988 slefpng.png
-P 6754028D soubu.png
+P 12B50866 soubu.png
 R B27D4EE8 timg.jpg
 P B4511519 xinjingxunlianying.png
 P 33DF3D8C yes.png

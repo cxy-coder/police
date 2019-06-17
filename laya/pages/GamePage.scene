@@ -2,7 +2,7 @@
     "x":0,
     "type":"View",
     "selectedBox":2,
-    "selecteID":27,
+    "selecteID":26,
     "searchKey":"View",
     "props":{"width":750,"sceneColor":"#ffffff","height":1334},
     "nodeParent":-1,
@@ -129,20 +129,6 @@
             "isAniNode":true,
             "hasChild":false,
             "compId":22,
-            "child":[
-                ]
-        },
-        {
-            "x":15,
-            "type":"Sprite",
-            "searchKey":"Sprite",
-            "props":{"y":1204,"x":750,"texture":"game/settting.png","rotation":90},
-            "nodeParent":2,
-            "label":"Sprite",
-            "isDirectory":false,
-            "isAniNode":true,
-            "hasChild":false,
-            "compId":26,
             "child":[
                 ]
         },
