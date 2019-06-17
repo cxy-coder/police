@@ -30,7 +30,7 @@ import Scene=Laya.Scene;]]>   </codeImportsTS>
    <trimempty>true   </trimempty>
    <startScene/>
    <engineType>2D   </engineType>
-   <scaleMode>fixedwidth   </scaleMode>
+   <scaleMode>exactfit   </scaleMode>
    <screenMode>none   </screenMode>
    <alignV>middle   </alignV>
    <alignH>center   </alignH>

@@ -24,7 +24,7 @@
     "compressJsNoteList": [
         ""
     ],
-    "version": false,
+    "version": true,
     "versionFilter": [
         "$basePath/**/*.*",
         "!$basePath/*.html",
@@ -52,5 +52,5 @@
     "compile": true,
     "onlyIndexJS": true,
     "projectType": "js",
-    "pubTime": 1560319190342
+    "pubTime": 1560789523013
 }
