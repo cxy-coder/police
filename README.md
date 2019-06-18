@@ -6,3 +6,6 @@
 - `bin` 文件夹是编译后的文件
 - `laya` 文件夹是静态资源
 - `libs` 是layabox核心代码
+
+## GithubPage访问
+- `https://znanjie.github.io/police/`
